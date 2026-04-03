@@ -75,8 +75,8 @@ async function seed() {
 
     console.log('Users seeded.');
 
-    // === BRANCHES (real TPHCM addresses) ===
-    const branch1 = await db.Branch.create({
+    // === BRANCHES (real TPHN addresses) ===
+     const branch1 = await db.Branch.create({
       name: 'SalonHub Hai Bà Trưng',
       address: '123 Nguyễn Hội Vũ, Phường Hàng Bông, Quận Hoàn Kiếm, TP.HN',
       phone: '028 3821 1234',
